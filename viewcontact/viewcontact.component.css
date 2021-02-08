@@ -1,0 +1,43 @@
+
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+  
+  }
+  body{
+  
+  
+   background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .jumbo {
+    padding-top: 150px;
+    height: 200vh;
+  }
+   
+  .navbar {
+    a {
+      color: $navbar-black;
+    }
+  }
+tr:hover {
+    background-color: rgb(247, 247, 155);
+    cursor: pointer
+}
+
+
+
+
+#coursetable.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#coursetable td,th {
+    border: 1px solid #1f1e1e;
+    text-align: left;
+    padding: 8px;
+}
