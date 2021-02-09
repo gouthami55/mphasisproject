@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Case</title>
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="nav.js"></script>
+</head>
+<body>
+
+ 
+
+    <div class="container jumbo">
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+       <div class="container">
+        <div class=text-center><h2>Courses Status Check</h2></div>
+        
+        <div class="row">
+          <div class="col-sm-3" style="background-color:grey;">
+         <div class="card" *ngFor="let item of courses">
+             
+                 
+             
+             
+                 <img width="225" height="200" [src]="item.Photo" >
+             
+             <h3>{{item.Name}}</h3>
+             <h3>Status: Started</h3>
+             
+                
+             
+             </div>
+</div>
+      </div>
+
+    </div> <!-- /container -->
+</div>
+</div>
+
+
+
+
+
+
+
